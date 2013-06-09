@@ -7,4 +7,4 @@ The client just sends a request to a checkin server with a list of its local int
 
     GET /checkin/<uuid>: Perform a checkin
     GET /status/<uuid>: Return a JSON representation of the given machine's last checkin
-    GET /status: Return a JSON representation of all checkins
+    GET /status: Return a JSON representation of all checkins (admin only)
